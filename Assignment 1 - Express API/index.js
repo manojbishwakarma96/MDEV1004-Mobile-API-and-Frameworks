@@ -1,6 +1,16 @@
 const express = require("express");
 const app = express();
 const recipesRoutes = require("./routes/recipesRoutes");
+
+const mongoose = require("mongoose");
+
+const mongoURI =
+  "mongodb+srv://manojbishwakarma88:<M@noj2123>@recipesdatabase.iogvl.mongodb.net/"; // Replace with your MongoDB URI
+mongoose
+  .connect(mongoURI, { useNewUrlParser: true, useUnifiedTopology: true })
+  .then(() => console.log("Connected to MongoDB"))
+  .catch((err) => console.error("MongoDB connection error:", err));
+
 app.use(express.json());
 
 app.use("/recipes", recipesRoutes);
