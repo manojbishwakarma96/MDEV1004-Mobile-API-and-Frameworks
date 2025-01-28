@@ -1,7 +1,8 @@
-exports.getRecipes = (req, res) => {
-  res.send("Get all recipes");
-};
+const recipes = [
+  { id: 1, name: "Pasta", ingredients: ["flour", "eggs", "salt"] },
+  { id: 2, name: "Pizza", ingredients: ["flour", "cheese", "tomato sauce"] },
+];
 
-exports.createRecipe = (req, res) => {
-  res.send("Create a recipe");
+exports.getRecipes = (req, res) => {
+  res.status(200).json({ success: true, data: recipes });
 };
