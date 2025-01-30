@@ -5,7 +5,7 @@ const recipesRoutes = require("./routes/recipesRoutes");
 const mongoose = require("mongoose");
 
 const mongoURI =
-  "mongodb+srv://manojbishwakarma88:manoj123@recipesdatabase.iogvl.mongodb.net/";
+  "c";
 
 mongoose
   .connect(mongoURI, { useNewUrlParser: true, useUnifiedTopology: true })
