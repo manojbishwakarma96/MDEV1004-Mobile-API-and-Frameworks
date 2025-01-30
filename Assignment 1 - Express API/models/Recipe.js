@@ -1,5 +1,5 @@
 /**
- * File Name: seeding.js
+ * File Name: Recipe.js
  * Student's Name: Manoj Bishwakarma
  * Student ID: 200594681
  * Date: 2025-01-29
