@@ -1,11 +1,20 @@
+/**
+ * File Name: index.js
+ * Student's Name: Manoj Bishwakarma
+ * Student ID: 200594681
+ * Date: 2025-01-29
+ */
+
 const express = require("express");
 const app = express();
 const recipesRoutes = require("./routes/recipesRoutes");
-
 const mongoose = require("mongoose");
 
-const mongoURI =
-  "c";
+// Load environment variables from .env file
+require("dotenv").config();
+
+// MongoDB URI from environment variables
+const mongoURI = process.env.MONGO_URI;
 
 mongoose
   .connect(mongoURI, { useNewUrlParser: true, useUnifiedTopology: true })
@@ -14,9 +23,10 @@ mongoose
     console.error("MongoDB connection error:", err.message);
     process.exit(1);
   });
+
 app.use(express.json());
 
-app.use("/recipes", recipesRoutes);
+app.use("/api/recipes", recipesRoutes);
 
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {

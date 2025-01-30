@@ -1,27 +1,15 @@
+/**
+ * File Name: recipesRoutes.js
+ * Student's Name: Manoj Bishwakarma
+ * Student ID: 200594681
+ * Date: 2025-01-29
+ */
+
 const express = require("express");
-const { getRecipes } = require("../controllers/recipesController");
 const router = express.Router();
+const recipesController = require("../controllers/recipesController");
 
-// POST a new recipe
-router.post("/", async (req, res) => {
-  try {
-    const newRecipe = new Recipe(req.body);
-    await newRecipe.save();
-    res.status(201).json(newRecipe);
-  } catch (err) {
-    res.status(400).json({ error: err.message });
-  }
-});
-
-// GET all recipes
-
-router.get("/", async (req, res) => {
-  try {
-    const recipes = await Recipe.find();
-    res.json(recipes);
-  } catch (err) {
-    res.status(500).json({ error: err.message });
-  }
-});
+// Fetch recipes from the database
+router.get("/", recipesController.getRecipes);
 
 module.exports = router;

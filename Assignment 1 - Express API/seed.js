@@ -1,5 +1,12 @@
+/**
+ * File Name: seed.js
+ * Student's Name: Manoj Bishwakarma
+ * Student ID: 200594681
+ * Date: 2025-01-29
+ */
+
 const mongoose = require("mongoose");
-const Recipe = require("./models/Recipies");
+const Recipe = require("./models/Recipe");
 
 const MONGO_URI =
   "mongodb+srv://manojbishwakarma88:manoj123@recipesdatabase.iogvl.mongodb.net/RecipeDB";
@@ -199,6 +206,7 @@ const recipes = [
 mongoose
   .connect(MONGO_URI)
   .then(async () => {
+    // Inserting the sample recipes data into the recipes collection
     await Recipe.insertMany(recipes);
     console.log("Database seeded!");
     mongoose.connection.close();

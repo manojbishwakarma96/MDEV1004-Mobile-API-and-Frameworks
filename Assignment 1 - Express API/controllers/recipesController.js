@@ -1,14 +1,15 @@
-const recipes = [
-  { id: 1, name: "Pasta", ingredients: ["flour", "eggs", "salt"] },
-  { id: 2, name: "Pizza", ingredients: ["flour", "cheese", "tomato sauce"] },
-];
+/**
+ * File Name: recipesController.js
+ * Student's Name: Manoj Bishwakarma
+ * Student ID: 200594681
+ * Date: 2025-01-29
+ */
 
-exports.getRecipes = (req, res) => {
-  res.status(200).json({ success: true, data: recipes });
-}
+const Recipe = require("../models/Recipe");
 
 exports.getRecipes = async (req, res) => {
   try {
+    // Fetch all recipes from the database
     const recipes = await Recipe.find();
     res.status(200).json({ success: true, data: recipes });
   } catch (error) {
