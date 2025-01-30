@@ -5,7 +5,7 @@ const recipesRoutes = require("./routes/recipesRoutes");
 const mongoose = require("mongoose");
 
 const mongoURI =
-  "c";
+  "mongodb+srv://manojbishwakarma88:manoj123@recipesdatabase.iogvl.mongodb.net/RecipesDB";
 
 mongoose
   .connect(mongoURI, { useNewUrlParser: true, useUnifiedTopology: true })
@@ -14,9 +14,10 @@ mongoose
     console.error("MongoDB connection error:", err.message);
     process.exit(1);
   });
+
 app.use(express.json());
 
-app.use("/recipes", recipesRoutes);
+app.use("/api/recipes", recipesRoutes);
 
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
