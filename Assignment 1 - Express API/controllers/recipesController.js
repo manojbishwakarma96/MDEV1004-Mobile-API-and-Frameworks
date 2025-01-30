@@ -9,6 +9,7 @@ const Recipe = require("../models/Recipe");
 
 exports.getRecipes = async (req, res) => {
   try {
+    // Fetch all recipes from the database
     const recipes = await Recipe.find();
     res.status(200).json({ success: true, data: recipes });
   } catch (error) {
