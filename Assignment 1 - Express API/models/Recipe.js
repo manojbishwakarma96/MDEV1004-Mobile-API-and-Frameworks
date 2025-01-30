@@ -1,3 +1,10 @@
+/**
+ * File Name: seeding.js
+ * Student's Name: Manoj Bishwakarma
+ * Student ID: 200594681
+ * Date: 2025-01-29
+ */
+
 const mongoose = require("mongoose");
 
 const recipeSchema = new mongoose.Schema({

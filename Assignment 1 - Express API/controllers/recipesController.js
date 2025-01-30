@@ -1,4 +1,11 @@
-const Recipe = require("../models/recipe");
+/**
+ * File Name: seeding.js
+ * Student's Name: Manoj Bishwakarma
+ * Student ID: 200594681
+ * Date: 2025-01-29
+ */
+
+const Recipe = require("../models/Recipe");
 
 exports.getRecipes = async (req, res) => {
   try {
