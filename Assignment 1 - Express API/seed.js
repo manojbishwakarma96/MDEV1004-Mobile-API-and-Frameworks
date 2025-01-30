@@ -12,7 +12,7 @@ const recipes = [
     difficulty: "Easy",
     cuisine: "Italian",
     description: "A classic Italian pasta dish.",
-    photoLink: "https://example.com/spaghetti.jpg",
+    photoLink: "https://images.pexels.com/photos/6287523/pexels-photo-6287523.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
     averageRating: 4.5,
   },
   {
@@ -22,7 +22,7 @@ const recipes = [
     difficulty: "Medium",
     cuisine: "Indian",
     description: "A spicy and flavorful dish.",
-    photoLink: "https://example.com/chicken-curry.jpg",
+    photoLink: "https://images.pexels.com/photos/27200320/pexels-photo-27200320/free-photo-of-a-bowl-of-curry-with-vegetables-and-meat.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
     averageRating: 4.7,
   },
   {
@@ -32,7 +32,7 @@ const recipes = [
     difficulty: "Easy",
     cuisine: "Mexican",
     description: "A delicious Mexican staple.",
-    photoLink: "https://example.com/tacos.jpg",
+    photoLink: "https://images.pexels.com/photos/2087748/pexels-photo-2087748.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
     averageRating: 4.6,
   },
   {
@@ -42,7 +42,7 @@ const recipes = [
     difficulty: "Hard",
     cuisine: "Japanese",
     description: "A traditional Japanese dish.",
-    photoLink: "https://example.com/sushi.jpg",
+    photoLink: "https://images.pexels.com/photos/357756/pexels-photo-357756.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
     averageRating: 4.8,
   },
   {
@@ -52,7 +52,7 @@ const recipes = [
     difficulty: "Easy",
     cuisine: "American",
     description: "A popular breakfast option.",
-    photoLink: "https://example.com/pancakes.jpg",
+    photoLink: "https://images.pexels.com/photos/376464/pexels-photo-376464.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
     averageRating: 4.3,
   },
   {
@@ -62,7 +62,7 @@ const recipes = [
     difficulty: "Easy",
     cuisine: "Italian",
     description: "A refreshing salad with a creamy dressing.",
-    photoLink: "https://example.com/caesar-salad.jpg",
+    photoLink: "https://images.pexels.com/photos/2097090/pexels-photo-2097090.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
     averageRating: 4.2,
   },
   {
@@ -72,7 +72,7 @@ const recipes = [
     difficulty: "Medium",
     cuisine: "Italian",
     description: "A layered pasta dish with rich flavors.",
-    photoLink: "https://example.com/lasagna.jpg",
+    photoLink: "https://images.pexels.com/photos/4079520/pexels-photo-4079520.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
     averageRating: 4.7,
   },
   {
@@ -82,7 +82,7 @@ const recipes = [
     difficulty: "Medium",
     cuisine: "Thai",
     description: "A famous stir-fried noodle dish from Thailand.",
-    photoLink: "https://example.com/pad-thai.jpg",
+    photoLink: "https://images.pexels.com/photos/5939141/pexels-photo-5939141.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
     averageRating: 4.6,
   },
   {
@@ -92,7 +92,7 @@ const recipes = [
     difficulty: "Hard",
     cuisine: "American",
     description: "Slow-cooked ribs with smoky flavors.",
-    photoLink: "https://example.com/bbq-ribs.jpg",
+    photoLink: "https://images.pexels.com/photos/410648/pexels-photo-410648.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
     averageRating: 4.8,
   },
   {
@@ -102,7 +102,7 @@ const recipes = [
     difficulty: "Hard",
     cuisine: "Indian",
     description: "A flavorful rice dish with spices and meat.",
-    photoLink: "https://example.com/biryani.jpg",
+    photoLink: "https://images.pexels.com/photos/17649369/pexels-photo-17649369/free-photo-of-meat-with-rice.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
     averageRating: 4.9,
   },
   {
@@ -112,7 +112,7 @@ const recipes = [
     difficulty: "Medium",
     cuisine: "Vietnamese",
     description: "A flavorful Vietnamese noodle soup.",
-    photoLink: "https://example.com/pho.jpg",
+    photoLink: "https://images.pexels.com/photos/1265626/pexels-photo-1265626.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
     averageRating: 4.6,
   },
   {
@@ -122,7 +122,7 @@ const recipes = [
     difficulty: "Medium",
     cuisine: "Middle Eastern",
     description: "Crispy and delicious chickpea balls.",
-    photoLink: "https://example.com/falafel.jpg",
+    photoLink: "https://images.pexels.com/photos/4046770/pexels-photo-4046770.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
     averageRating: 4.4,
   },
   {
@@ -132,7 +132,7 @@ const recipes = [
     difficulty: "Easy",
     cuisine: "Korean",
     description: "A spicy and tangy fried rice dish.",
-    photoLink: "https://example.com/kimchi-fried-rice.jpg",
+    photoLink: "https://images.pexels.com/photos/15681166/pexels-photo-15681166/free-photo-of-food-with-fried-eggs-on-plate-on-table.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
     averageRating: 4.7,
   },
   {
@@ -142,7 +142,7 @@ const recipes = [
     difficulty: "Easy",
     cuisine: "Chinese",
     description: "A stir-fried noodle dish with vegetables.",
-    photoLink: "https://example.com/chow-mein.jpg",
+    photoLink: "https://images.pexels.com/photos/5848496/pexels-photo-5848496.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
     averageRating: 4.5,
   },
   {
@@ -152,7 +152,7 @@ const recipes = [
     difficulty: "Medium",
     cuisine: "Russian",
     description: "A creamy beef and mushroom dish.",
-    photoLink: "https://example.com/beef-stroganoff.jpg",
+    photoLink: "https://images.pexels.com/photos/1998918/pexels-photo-1998918.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
     averageRating: 4.6,
   },
   {
@@ -162,7 +162,7 @@ const recipes = [
     difficulty: "Easy",
     cuisine: "Greek",
     description: "A refreshing salad with Mediterranean flavors.",
-    photoLink: "https://example.com/greek-salad.jpg",
+    photoLink: "https://images.pexels.com/photos/1211887/pexels-photo-1211887.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
     averageRating: 4.3,
   },
   {
@@ -172,7 +172,7 @@ const recipes = [
     difficulty: "Medium",
     cuisine: "British",
     description: "A comforting meat and potato dish.",
-    photoLink: "https://example.com/shepherds-pie.jpg",
+    photoLink: "https://images.pexels.com/photos/30391247/pexels-photo-30391247/free-photo-of-close-up-of-lemon-meringue-pie-on-green-background.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
     averageRating: 4.7,
   },
   {
@@ -182,7 +182,7 @@ const recipes = [
     difficulty: "Hard",
     cuisine: "Spanish",
     description: "A famous Spanish rice dish with seafood.",
-    photoLink: "https://example.com/paella.jpg",
+    photoLink: "https://images.pexels.com/photos/12419160/pexels-photo-12419160.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
     averageRating: 4.8,
   },
   {
@@ -192,7 +192,7 @@ const recipes = [
     difficulty: "Medium",
     cuisine: "Japanese",
     description: "Japanese pan-fried dumplings.",
-    photoLink: "https://example.com/gyoza.jpg",
+    photoLink: "https://images.pexels.com/photos/11661145/pexels-photo-11661145.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
     averageRating: 4.7,
   },
 ];
