@@ -12,7 +12,7 @@ mongoose
   .then(() => console.log("Connected to MongoDB"))
   .catch((err) => {
     console.error("MongoDB connection error:", err.message);
-    process.exit(1); // Exit the process if connection fails
+    process.exit(1);
   });
 app.use(express.json());
 
