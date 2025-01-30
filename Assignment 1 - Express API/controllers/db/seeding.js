@@ -1,10 +1,3 @@
-/**
- * File: seeding.js
- * Author: Manoj Bishwakarma
- * Date: Jan 28, 2025
- * Description: Script to seed the MongoDB database with 20 initial recipes.
- */
-
 const mongoose = require("mongoose");
 const Recipe = require("../models/recipeModel");
 
