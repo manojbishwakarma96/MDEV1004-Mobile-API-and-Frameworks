@@ -1,10 +1,9 @@
 /**
  * File Name: recipesController.js
- * Student's Name: Manoj Bishwakarma
- * Student ID: 200594681
+ * Student's Name: Manoj Bishwakarma, Laxman Rokaya
+ * Student ID: 200594681, 200562874
  * Date: 2025-01-29
  */
-
 const Recipe = require("../models/Recipe");
 
 exports.getRecipes = async (req, res) => {
